@@ -140,6 +140,9 @@ class Tag(Game):
             self._players[player2].ignore_enemy(player1)
             self._players[player2].select_target(player1)
 
+            #TODO remove player1 from everyone's enemy list and add to target lists
+            #TODO add player2 to everyone's enemy list and remove from target lists
+
         elif self._it == player2:
             # player2 is _it and tags player1
             self._it = player1
@@ -152,6 +155,9 @@ class Tag(Game):
 
             self._players[player1].ignore_enemy(player2)
             self._players[player1].select_target(player2)
+
+            # TODO remove player2 from everyone's enemy list and add to target lists
+            # TODO add player1 to everyone's enemy list and remove from target lists
 
     def check_for_winner(self) -> Optional[str]:
         """ Return the name of the player or group of players that have
