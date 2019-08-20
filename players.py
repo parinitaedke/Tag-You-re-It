@@ -3,11 +3,6 @@
 === Module Description ===
 
 This file contains classes that describe a Player object.
-
-As discussed in the handout, you may not change any of the public behaviour
-(attributes, methods) given in the starter code, but you can definitely add
-new functions, classes and methods to complete your work here.
-
 """
 from __future__ import annotations
 import random
