@@ -1,8 +1,4 @@
-"""CSC148 Assignment 1 - Tag You're It!
-
-=== CSC148 Summer 2019 ===
-Department of Computer Science,
-University of Toronto
+"""Tag You're It!
 
 === Module Description ===
 
